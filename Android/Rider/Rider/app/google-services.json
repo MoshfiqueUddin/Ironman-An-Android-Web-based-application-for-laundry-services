@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "328087361052",
+    "firebase_url": "https://ironman-146b5-default-rtdb.firebaseio.com",
+    "project_id": "ironman-146b5",
+    "storage_bucket": "ironman-146b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328087361052:android:9da07e7aa56faedc3331d9",
+        "android_client_info": {
+          "package_name": "com.example.ironman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328087361052-ckqs77p81q8oagb5g6ep20ckcbndc6nr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ironman",
+            "certificate_hash": "885d621f9091bfde816fc8567df000e089145b69"
+          }
+        },
+        {
+          "client_id": "328087361052-18bpf1tjo7f5fu20rsvcp6e8c9tt1fsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7J0HdCMmb3lSnlh4ZqbCiQXH-zjqLS2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328087361052-18bpf1tjo7f5fu20rsvcp6e8c9tt1fsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328087361052:android:96e50f5c7f2f44423331d9",
+        "android_client_info": {
+          "package_name": "com.example.ironmanshops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328087361052-18bpf1tjo7f5fu20rsvcp6e8c9tt1fsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7J0HdCMmb3lSnlh4ZqbCiQXH-zjqLS2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328087361052-18bpf1tjo7f5fu20rsvcp6e8c9tt1fsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328087361052:android:5848e08f62bd2e0f3331d9",
+        "android_client_info": {
+          "package_name": "com.example.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328087361052-18bpf1tjo7f5fu20rsvcp6e8c9tt1fsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7J0HdCMmb3lSnlh4ZqbCiQXH-zjqLS2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328087361052-18bpf1tjo7f5fu20rsvcp6e8c9tt1fsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

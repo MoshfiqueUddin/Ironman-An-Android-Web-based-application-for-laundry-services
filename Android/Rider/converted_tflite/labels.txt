@@ -1,0 +1,5 @@
+0 Shirt
+1 Pant
+2 Punjabi
+3 Tshirt
+4 Saree

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopDashboard">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/teal_200"
+        />
+
+    <TextView
+        android:id="@+id/t111"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t122"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/t111"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:text="Address"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@+id/rl1" >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recviewforitem1"
+            android:layout_width="match_parent"
+
+            android:layout_height="400dp"
+            android:layout_below="@+id/it"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="ITEMS"
+            android:id="@+id/it"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addtocart"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="470dp"
+            android:text="ADD TO CART"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#5A5959" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
